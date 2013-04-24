@@ -3,10 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to cloud-matrix's documentation!
-========================================
-
-Contents:
+Cloud&Matrix Hadoop 学习文档
+=============================
 
 .. toctree::
    :maxdepth: 2
