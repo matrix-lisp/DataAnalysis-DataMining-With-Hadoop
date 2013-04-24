@@ -1,0 +1,17 @@
+{%- if prev -%}
+  <h4>{{ _('Previous topic') }}</h4>
+  <ul>
+    <li>
+      <a href="{{ prev.link | e }}" title="{{ _('previous chapter') }}">{{ prev.title }}</a>
+    </li>
+  </ul>
+{%- endif -%}
+
+{%- if next -%}
+  <h4>{{ _('Next topic') }}</h4>
+  <ul>
+    <li>
+      <a href="{{ next.link | e }}" title="{{ _('next chapter') }}">{{ next.title }}</a>
+    </li>
+  </ul>
+{%- endif -%}

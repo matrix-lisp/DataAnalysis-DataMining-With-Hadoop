@@ -1,0 +1,88 @@
+@import url("basic.css");
+
+/* -- Rosefince specific styles --------------------------------------------- */
+
+/* Resets field list style */
+table.field-list td, table.field-list th {
+  text-align: left;
+}
+
+/* Resets footnote label style */
+table.footnote .label {
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  color: inherit;
+  text-shadow: inherit;
+  white-space: inherit
+  vertical-align: inherit;
+  background-color: inherit;
+  padding: inherit;
+  -webkit-border-radius: inherit;
+     -moz-border-radius: inherit;
+          border-radius: inherit;
+}
+
+{% if not (theme_han_indent | tobool) %}
+  article p:before,
+  article:lang(zh) p:before,
+  article:lang(ja) p:before {
+    content: "";
+  }
+{% endif %}
+
+/* Remove unecessary indentation */
+article dd p.first:before,
+article div.math p:before,
+article .field-list p:before,
+article li div.first p.compound-first:before,
+article li p.first:before,
+article p.admonition-title:before,
+article p.biglink:before,
+article p.caption:before,
+article p.centered:before,
+article p.compound-last:before,
+article p.compound-middle:before,
+article p.rubric:before,
+article p.sidebar-title:before,
+article p.topic-title:before,
+article table.footnote p:before {
+  content: "";
+}
+
+div.sphinxsidebar {
+  margin-left: 0;
+}
+
+div.footer {
+  text-align: right;
+}
+
+article a.reference em {
+  border: inherit;
+}
+
+article li p.first {
+  line-height: 3;
+}
+
+img.logo {
+  align: center;
+}
+
+tt,
+a.footnote-reference {
+  padding: 0 3px 0 3px;
+}
+
+.unsure {
+  background-color: yellow;
+}
+
+.highlight pre {
+  margin-top: 10px;
+}
+
+div.navbar ul.nav {
+    display: none;
+}
