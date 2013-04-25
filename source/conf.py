@@ -103,7 +103,7 @@ html_theme_path = ['.']
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-html_title = u'Cloud&Matrix Hadoop 学习文档'
+html_title = u'大数据时代的数据分析与数据挖掘 -- 基于Hadoop实现'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #html_short_title = None
@@ -164,7 +164,7 @@ html_show_sourcelink = False
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'Cloud&Matrix-Hadoop-doc'
+htmlhelp_basename = 'Cloud&Matrix-DataAnalyse-Doc'
 
 
 # -- Options for LaTeX output --------------------------------------------------
