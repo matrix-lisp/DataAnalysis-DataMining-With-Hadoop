@@ -11,6 +11,7 @@
 
    Data-Analyse
    Data-Mining
+   Hadoop-Summary
    Hadoop-Install
    Hadoop-HDFS
    Hadoop-MapReduce
