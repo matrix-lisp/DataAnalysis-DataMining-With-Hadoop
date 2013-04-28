@@ -335,7 +335,7 @@ Hadoop安装
     2409 DataNode
     [hadoop@hadooptest bin]$ 
 
-Date: 2013-04-25 11:32:46 CST
+Date: 2013-04-28 10:38:29 CST
 
 Author: Cloud&Matrix
 
